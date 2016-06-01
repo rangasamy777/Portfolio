@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Super Tutor">
+    <output-path>$PROJECT_DIR$/out/artifacts/Super_Tutor</output-path>
+    <root id="archive" name="Super Tutor.jar">
+      <element id="module-output" name="Super Tutor" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Envision Tech LLC/libraries/json_simple.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/Documents/Envision Tech LLC/libraries/json_simple.jar" />
+    </root>
+  </artifact>
+</component>
