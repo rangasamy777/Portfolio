@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F005A6791B56FC1C00B4565F /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = F005A6781B56FC1C00B4565F /* names.json */; };
+		F005A67B1B56FC4200B4565F /* NameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005A67A1B56FC4200B4565F /* NameParser.swift */; };
+		F005A67D1B56FD2600B4565F /* NameOfAllah.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005A67C1B56FD2600B4565F /* NameOfAllah.swift */; };
+		F005A67F1B56FEE400B4565F /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005A67E1B56FEE400B4565F /* NameCell.swift */; };
+		F005A6811B56FF9600B4565F /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005A6801B56FF9600B4565F /* NameVC.swift */; };
+		F03577441B580C67000D29E9 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03577431B580C67000D29E9 /* RegisterVC.swift */; };
+		F03577461B581190000D29E9 /* RegistrationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03577451B581190000D29E9 /* RegistrationHandler.swift */; };
+		F03577481B581636000D29E9 /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03577471B581636000D29E9 /* Interfaces.swift */; };
+		F05C42E91B52D59700576A07 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C42E81B52D59700576A07 /* MoreVC.swift */; };
+		F05C42EB1B54990600576A07 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = F05C42EA1B54990600576A07 /* splash.png */; };
+		F05C42ED1B54E8F400576A07 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C42EC1B54E8F400576A07 /* User.swift */; };
+		F05C42F11B54EEFD00576A07 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C42F01B54EEFD00576A07 /* iAd.framework */; };
+		F05E54541B491AE700E2854D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54531B491AE700E2854D /* AppDelegate.swift */; };
+		F05E54571B491AE700E2854D /* Discover_Islam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F05E54551B491AE700E2854D /* Discover_Islam.xcdatamodeld */; };
+		F05E545C1B491AE700E2854D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05E545A1B491AE700E2854D /* Main.storyboard */; };
+		F05E545E1B491AE700E2854D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05E545D1B491AE700E2854D /* Images.xcassets */; };
+		F05E54611B491AE700E2854D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05E545F1B491AE700E2854D /* LaunchScreen.xib */; };
+		F05E546D1B491AE700E2854D /* Discover_IslamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E546C1B491AE700E2854D /* Discover_IslamTests.swift */; };
+		F05E547C1B49282500E2854D /* NewsFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E547B1B49282500E2854D /* NewsFeedParser.swift */; };
+		F05E547F1B49286300E2854D /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E547E1B49286300E2854D /* News.swift */; };
+		F05E54811B4999FD00E2854D /* NewsFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54801B4999FD00E2854D /* NewsFeedVC.swift */; };
+		F05E54831B499A4C00E2854D /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54821B499A4C00E2854D /* NewsCell.swift */; };
+		F05E54881B49AD5000E2854D /* NewsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54871B49AD5000E2854D /* NewsDetailsVC.swift */; };
+		F05E548C1B49C1BB00E2854D /* liked.png in Resources */ = {isa = PBXBuildFile; fileRef = F05E548B1B49C1BB00E2854D /* liked.png */; };
+		F05E548E1B49C6D800E2854D /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E548D1B49C6D800E2854D /* ServerAPI.swift */; };
+		F05E54901B49CE7400E2854D /* bg table.png in Resources */ = {isa = PBXBuildFile; fileRef = F05E548F1B49CE7400E2854D /* bg table.png */; };
+		F05E54921B49F85400E2854D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54911B49F85400E2854D /* Profile.swift */; };
+		F05E54941B4A00F100E2854D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E54931B4A00F100E2854D /* ProfileVC.swift */; };
+		F05F28641B5860CE00C01ECC /* athaan.m4r in Resources */ = {isa = PBXBuildFile; fileRef = F05F28631B585F7500C01ECC /* athaan.m4r */; };
+		F05F28661B58798200C01ECC /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F28651B58798200C01ECC /* ContentVC.swift */; };
+		F0B473741B4A618100292112 /* TimetableParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B473731B4A618100292112 /* TimetableParser.swift */; };
+		F0B473761B4A63A800292112 /* july.json in Resources */ = {isa = PBXBuildFile; fileRef = F0B473751B4A63A800292112 /* july.json */; };
+		F0B473811B4A84B600292112 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B473801B4A84B600292112 /* LoginVC.swift */; };
+		F0B473851B4C18B500292112 /* PrayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B473841B4C18B500292112 /* PrayerCell.swift */; };
+		F0B473871B4C191200292112 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B473861B4C191200292112 /* Prayer.swift */; };
+		F0B473891B4C1B3100292112 /* PrayerTimetableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B473881B4C1B3100292112 /* PrayerTimetableVC.swift */; };
+		F0E120C31B5580250083C387 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E120C21B5580250083C387 /* LoginHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F05E54671B491AE700E2854D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05E54461B491AE700E2854D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F05E544D1B491AE700E2854D;
+			remoteInfo = "Discover Islam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F005A6781B56FC1C00B4565F /* names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = names.json; sourceTree = "<group>"; };
+		F005A67A1B56FC4200B4565F /* NameParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameParser.swift; sourceTree = "<group>"; };
+		F005A67C1B56FD2600B4565F /* NameOfAllah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameOfAllah.swift; sourceTree = "<group>"; };
+		F005A67E1B56FEE400B4565F /* NameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		F005A6801B56FF9600B4565F /* NameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		F03577431B580C67000D29E9 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F03577451B581190000D29E9 /* RegistrationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationHandler.swift; sourceTree = "<group>"; };
+		F03577471B581636000D29E9 /* Interfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
+		F05C42E81B52D59700576A07 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		F05C42EA1B54990600576A07 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		F05C42EC1B54E8F400576A07 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F05C42F01B54EEFD00576A07 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F05E544E1B491AE700E2854D /* Discover Islam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discover Islam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05E54521B491AE700E2854D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05E54531B491AE700E2854D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F05E54561B491AE700E2854D /* Discover_Islam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Discover_Islam.xcdatamodel; sourceTree = "<group>"; };
+		F05E545B1B491AE700E2854D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05E545D1B491AE700E2854D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F05E54601B491AE700E2854D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F05E54661B491AE700E2854D /* Discover IslamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discover IslamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05E546B1B491AE700E2854D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05E546C1B491AE700E2854D /* Discover_IslamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_IslamTests.swift; sourceTree = "<group>"; };
+		F05E547B1B49282500E2854D /* NewsFeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedParser.swift; sourceTree = "<group>"; };
+		F05E547E1B49286300E2854D /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F05E54801B4999FD00E2854D /* NewsFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedVC.swift; sourceTree = "<group>"; };
+		F05E54821B499A4C00E2854D /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		F05E54871B49AD5000E2854D /* NewsDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailsVC.swift; sourceTree = "<group>"; };
+		F05E548B1B49C1BB00E2854D /* liked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liked.png; sourceTree = "<group>"; };
+		F05E548D1B49C6D800E2854D /* ServerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
+		F05E548F1B49CE7400E2854D /* bg table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg table.png"; sourceTree = "<group>"; };
+		F05E54911B49F85400E2854D /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F05E54931B4A00F100E2854D /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F05F28631B585F7500C01ECC /* athaan.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = athaan.m4r; sourceTree = "<group>"; };
+		F05F28651B58798200C01ECC /* ContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
+		F0A106AD1B4C32F700EB0880 /* Discover Islam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Discover Islam.entitlements"; sourceTree = "<group>"; };
+		F0B473731B4A618100292112 /* TimetableParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableParser.swift; sourceTree = "<group>"; };
+		F0B473751B4A63A800292112 /* july.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = july.json; sourceTree = "<group>"; };
+		F0B473801B4A84B600292112 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F0B473841B4C18B500292112 /* PrayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerCell.swift; sourceTree = "<group>"; };
+		F0B473861B4C191200292112 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		F0B473881B4C1B3100292112 /* PrayerTimetableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTimetableVC.swift; sourceTree = "<group>"; };
+		F0E120C21B5580250083C387 /* LoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05E544B1B491AE700E2854D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05C42F11B54EEFD00576A07 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05E54631B491AE700E2854D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05E54451B491AE700E2854D = {
+			isa = PBXGroup;
+			children = (
+				F05C42F01B54EEFD00576A07 /* iAd.framework */,
+				F05E54501B491AE700E2854D /* Discover Islam */,
+				F05E54691B491AE700E2854D /* Discover IslamTests */,
+				F05E544F1B491AE700E2854D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05E544F1B491AE700E2854D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05E544E1B491AE700E2854D /* Discover Islam.app */,
+				F05E54661B491AE700E2854D /* Discover IslamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05E54501B491AE700E2854D /* Discover Islam */ = {
+			isa = PBXGroup;
+			children = (
+				F0A106AD1B4C32F700EB0880 /* Discover Islam.entitlements */,
+				F0B4736E1B4A611D00292112 /* JSON data */,
+				F05F28621B585F6500C01ECC /* music files */,
+				F05E54841B499D6000E2854D /* images */,
+				F05E547D1B49285500E2854D /* Model */,
+				F05E54781B491B0A00E2854D /* Server */,
+				F05E54771B491B0500E2854D /* Components */,
+				F05E54761B491AFF00E2854D /* View Controllers */,
+				F05E54531B491AE700E2854D /* AppDelegate.swift */,
+				F05E545A1B491AE700E2854D /* Main.storyboard */,
+				F05E545D1B491AE700E2854D /* Images.xcassets */,
+				F05E545F1B491AE700E2854D /* LaunchScreen.xib */,
+				F05E54551B491AE700E2854D /* Discover_Islam.xcdatamodeld */,
+				F05E54511B491AE700E2854D /* Supporting Files */,
+			);
+			path = "Discover Islam";
+			sourceTree = "<group>";
+		};
+		F05E54511B491AE700E2854D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05E54521B491AE700E2854D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F05E54691B491AE700E2854D /* Discover IslamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F05E546C1B491AE700E2854D /* Discover_IslamTests.swift */,
+				F05E546A1B491AE700E2854D /* Supporting Files */,
+			);
+			path = "Discover IslamTests";
+			sourceTree = "<group>";
+		};
+		F05E546A1B491AE700E2854D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05E546B1B491AE700E2854D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F05E54761B491AFF00E2854D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F05E54801B4999FD00E2854D /* NewsFeedVC.swift */,
+				F05E54871B49AD5000E2854D /* NewsDetailsVC.swift */,
+				F0B473801B4A84B600292112 /* LoginVC.swift */,
+				F0B473881B4C1B3100292112 /* PrayerTimetableVC.swift */,
+				F05C42E81B52D59700576A07 /* MoreVC.swift */,
+				F005A6801B56FF9600B4565F /* NameVC.swift */,
+				F05E54931B4A00F100E2854D /* ProfileVC.swift */,
+				F03577431B580C67000D29E9 /* RegisterVC.swift */,
+				F05F28651B58798200C01ECC /* ContentVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F05E54771B491B0500E2854D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F05E54821B499A4C00E2854D /* NewsCell.swift */,
+				F0B473841B4C18B500292112 /* PrayerCell.swift */,
+				F005A67E1B56FEE400B4565F /* NameCell.swift */,
+				F03577471B581636000D29E9 /* Interfaces.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		F05E54781B491B0A00E2854D /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				F05E547B1B49282500E2854D /* NewsFeedParser.swift */,
+				F05E548D1B49C6D800E2854D /* ServerAPI.swift */,
+				F0B473731B4A618100292112 /* TimetableParser.swift */,
+				F0E120C21B5580250083C387 /* LoginHandler.swift */,
+				F005A67A1B56FC4200B4565F /* NameParser.swift */,
+				F03577451B581190000D29E9 /* RegistrationHandler.swift */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		F05E547D1B49285500E2854D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F05E547E1B49286300E2854D /* News.swift */,
+				F05E54911B49F85400E2854D /* Profile.swift */,
+				F0B473861B4C191200292112 /* Prayer.swift */,
+				F05C42EC1B54E8F400576A07 /* User.swift */,
+				F005A67C1B56FD2600B4565F /* NameOfAllah.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F05E54841B499D6000E2854D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F05E548B1B49C1BB00E2854D /* liked.png */,
+				F05E548F1B49CE7400E2854D /* bg table.png */,
+				F05C42EA1B54990600576A07 /* splash.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F05F28621B585F6500C01ECC /* music files */ = {
+			isa = PBXGroup;
+			children = (
+				F05F28631B585F7500C01ECC /* athaan.m4r */,
+			);
+			name = "music files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F0B4736E1B4A611D00292112 /* JSON data */ = {
+			isa = PBXGroup;
+			children = (
+				F005A6781B56FC1C00B4565F /* names.json */,
+				F0B473751B4A63A800292112 /* july.json */,
+			);
+			name = "JSON data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05E544D1B491AE700E2854D /* Discover Islam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05E54701B491AE700E2854D /* Build configuration list for PBXNativeTarget "Discover Islam" */;
+			buildPhases = (
+				F05E544A1B491AE700E2854D /* Sources */,
+				F05E544B1B491AE700E2854D /* Frameworks */,
+				F05E544C1B491AE700E2854D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discover Islam";
+			productName = "Discover Islam";
+			productReference = F05E544E1B491AE700E2854D /* Discover Islam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F05E54651B491AE700E2854D /* Discover IslamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05E54731B491AE700E2854D /* Build configuration list for PBXNativeTarget "Discover IslamTests" */;
+			buildPhases = (
+				F05E54621B491AE700E2854D /* Sources */,
+				F05E54631B491AE700E2854D /* Frameworks */,
+				F05E54641B491AE700E2854D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F05E54681B491AE700E2854D /* PBXTargetDependency */,
+			);
+			name = "Discover IslamTests";
+			productName = "Discover IslamTests";
+			productReference = F05E54661B491AE700E2854D /* Discover IslamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05E54461B491AE700E2854D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Envision Tech LLC";
+				TargetAttributes = {
+					F05E544D1B491AE700E2854D = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = V2D26AF8TS;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					F05E54651B491AE700E2854D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F05E544D1B491AE700E2854D;
+					};
+				};
+			};
+			buildConfigurationList = F05E54491B491AE700E2854D /* Build configuration list for PBXProject "Discover Islam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F05E54451B491AE700E2854D;
+			productRefGroup = F05E544F1B491AE700E2854D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05E544D1B491AE700E2854D /* Discover Islam */,
+				F05E54651B491AE700E2854D /* Discover IslamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05E544C1B491AE700E2854D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F28641B5860CE00C01ECC /* athaan.m4r in Resources */,
+				F05E545C1B491AE700E2854D /* Main.storyboard in Resources */,
+				F05C42EB1B54990600576A07 /* splash.png in Resources */,
+				F05E54611B491AE700E2854D /* LaunchScreen.xib in Resources */,
+				F05E54901B49CE7400E2854D /* bg table.png in Resources */,
+				F0B473761B4A63A800292112 /* july.json in Resources */,
+				F05E548C1B49C1BB00E2854D /* liked.png in Resources */,
+				F005A6791B56FC1C00B4565F /* names.json in Resources */,
+				F05E545E1B491AE700E2854D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05E54641B491AE700E2854D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05E544A1B491AE700E2854D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F005A67D1B56FD2600B4565F /* NameOfAllah.swift in Sources */,
+				F005A6811B56FF9600B4565F /* NameVC.swift in Sources */,
+				F0E120C31B5580250083C387 /* LoginHandler.swift in Sources */,
+				F05E54941B4A00F100E2854D /* ProfileVC.swift in Sources */,
+				F05E547F1B49286300E2854D /* News.swift in Sources */,
+				F03577461B581190000D29E9 /* RegistrationHandler.swift in Sources */,
+				F05E54811B4999FD00E2854D /* NewsFeedVC.swift in Sources */,
+				F03577441B580C67000D29E9 /* RegisterVC.swift in Sources */,
+				F05C42E91B52D59700576A07 /* MoreVC.swift in Sources */,
+				F0B473851B4C18B500292112 /* PrayerCell.swift in Sources */,
+				F0B473741B4A618100292112 /* TimetableParser.swift in Sources */,
+				F005A67B1B56FC4200B4565F /* NameParser.swift in Sources */,
+				F03577481B581636000D29E9 /* Interfaces.swift in Sources */,
+				F005A67F1B56FEE400B4565F /* NameCell.swift in Sources */,
+				F05E54881B49AD5000E2854D /* NewsDetailsVC.swift in Sources */,
+				F05C42ED1B54E8F400576A07 /* User.swift in Sources */,
+				F0B473871B4C191200292112 /* Prayer.swift in Sources */,
+				F05E548E1B49C6D800E2854D /* ServerAPI.swift in Sources */,
+				F0B473811B4A84B600292112 /* LoginVC.swift in Sources */,
+				F0B473891B4C1B3100292112 /* PrayerTimetableVC.swift in Sources */,
+				F05E547C1B49282500E2854D /* NewsFeedParser.swift in Sources */,
+				F05E54541B491AE700E2854D /* AppDelegate.swift in Sources */,
+				F05F28661B58798200C01ECC /* ContentVC.swift in Sources */,
+				F05E54831B499A4C00E2854D /* NewsCell.swift in Sources */,
+				F05E54921B49F85400E2854D /* Profile.swift in Sources */,
+				F05E54571B491AE700E2854D /* Discover_Islam.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05E54621B491AE700E2854D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05E546D1B491AE700E2854D /* Discover_IslamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F05E54681B491AE700E2854D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F05E544D1B491AE700E2854D /* Discover Islam */;
+			targetProxy = F05E54671B491AE700E2854D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F05E545A1B491AE700E2854D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05E545B1B491AE700E2854D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F05E545F1B491AE700E2854D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05E54601B491AE700E2854D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05E546E1B491AE700E2854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F05E546F1B491AE700E2854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05E54711B491AE700E2854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Discover Islam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F05E54721B491AE700E2854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Discover Islam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F05E54741B491AE700E2854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Discover IslamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover Islam.app/Discover Islam";
+			};
+			name = Debug;
+		};
+		F05E54751B491AE700E2854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Discover IslamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover Islam.app/Discover Islam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05E54491B491AE700E2854D /* Build configuration list for PBXProject "Discover Islam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05E546E1B491AE700E2854D /* Debug */,
+				F05E546F1B491AE700E2854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05E54701B491AE700E2854D /* Build configuration list for PBXNativeTarget "Discover Islam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05E54711B491AE700E2854D /* Debug */,
+				F05E54721B491AE700E2854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05E54731B491AE700E2854D /* Build configuration list for PBXNativeTarget "Discover IslamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05E54741B491AE700E2854D /* Debug */,
+				F05E54751B491AE700E2854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F05E54551B491AE700E2854D /* Discover_Islam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F05E54561B491AE700E2854D /* Discover_Islam.xcdatamodel */,
+			);
+			currentVersion = F05E54561B491AE700E2854D /* Discover_Islam.xcdatamodel */;
+			path = Discover_Islam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F05E54461B491AE700E2854D /* Project object */;
+}

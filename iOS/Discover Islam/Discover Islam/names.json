@@ -1,0 +1,596 @@
+{"names":[
+{
+"Index": "0",
+"Arabic": "﻿الله",
+"English": "Allah",
+"Meaning": "The Greatest name"
+},
+{
+"Index": "2",
+"Arabic": "الرحمن",
+"English": "Ar-Rahman",
+"Meaning": "The All-Compassionate"
+},
+{
+"Index": "3",
+"Arabic": "الرحيم",
+"English": "Ar-Rahim",
+"Meaning": "The All-Merciful"
+},
+{
+"Index": "4",
+"Arabic": "الملك",
+"English": "Al-Malik",
+"Meaning": "The Absolute Ruler"
+},
+{
+"Index": "5",
+"Arabic": "القدوس",
+"English": "Al-Quddus",
+"Meaning": "The Pure One"
+},
+{
+"Index": "6",
+"Arabic": "السلام",
+"English": "As-Salam",
+"Meaning": "The Source of Peace"
+},
+{
+"Index": "7",
+"Arabic": "المؤمن",
+"English": "Al-Mu’min",
+"Meaning": "The Inspirer of Faith"
+},
+{
+"Index": "8",
+"Arabic": "المهيمن",
+"English": "Al-Muhaymin",
+"Meaning": "The Guardian"
+},
+{
+"Index": "9",
+"Arabic": "العزيز",
+"English": "Al-Aziz",
+"Meaning": "The Victorious"
+},
+{
+"Index": "10",
+"Arabic": "الجبار",
+"English": "Al-Jabbar",
+"Meaning": "The Compeller"
+},
+{
+"Index": "11",
+"Arabic": "المتكبر",
+"English": "Al-Mutakabbir",
+"Meaning": "The Greatest"
+},
+{
+"Index": "12",
+"Arabic": "الخالق",
+"English": "Al-Khaliq",
+"Meaning": "The Creator"
+},
+{
+"Index": "13",
+"Arabic": "البارئ",
+"English": "Al-Bari’",
+"Meaning": "The Maker of Order"
+},
+{
+"Index": "14",
+"Arabic": "المصور",
+"English": "Al-Musawwir",
+"Meaning": "The Shaper of Beauty"
+},
+{
+"Index": "15",
+"Arabic": "الغفار",
+"English": "Al-Ghaffar",
+"Meaning": "The Forgiving"
+},
+{
+"Index": "16",
+"Arabic": "القهار",
+"English": "Al-Qahhar",
+"Meaning": "The Subduer"
+},
+{
+"Index": "17",
+"Arabic": "الوهاب",
+"English": "Al-Wahhab",
+"Meaning": "The Giver of All"
+},
+{
+"Index": "18",
+"Arabic": "الرزاق",
+"English": "Ar-Razzaq",
+"Meaning": "The Sustainer"
+},
+{
+"Index": "19",
+"Arabic": "الفتاح",
+"English": "Al-Fattah",
+"Meaning": "The Opener"
+},
+{
+"Index": "20",
+"Arabic": "العليم",
+"English": "Al-`Alim",
+"Meaning": "The Knower of All"
+},
+{
+"Index": "21",
+"Arabic": "القابض",
+"English": "Al-Qabid",
+"Meaning": "The Constrictor"
+},
+{
+"Index": "22",
+"Arabic": "الباسط",
+"English": "Al-Basit",
+"Meaning": "The Reliever"
+},
+{
+"Index": "23",
+"Arabic": "الخافض",
+"English": "Al-Khafid",
+"Meaning": "The Abaser"
+},
+{
+"Index": "24",
+"Arabic": "الرافع",
+"English": "Ar-Rafi",
+"Meaning": "The Exalter"
+},
+{
+"Index": "25",
+"Arabic": "المعز",
+"English": "Al-Mu’izz",
+"Meaning": "The Bestower of Honors"
+},
+{
+"Index": "26",
+"Arabic": "المذل",
+"English": "Al-Mudhill",
+"Meaning": "The Humiliator"
+},
+{
+"Index": "27",
+"Arabic": "السميع",
+"English": "As-Sami",
+"Meaning": "The Hearer of All"
+},
+{
+"Index": "28",
+"Arabic": "البصير",
+"English": "Al-Basir",
+"Meaning": "The Seer of All"
+},
+{
+"Index": "29",
+"Arabic": "الحكم",
+"English": "Al-Hakam",
+"Meaning": "The Judge"
+},
+{
+"Index": "30",
+"Arabic": "العدل",
+"English": "Al-`Adl",
+"Meaning": "The Just"
+},
+{
+"Index": "31",
+"Arabic": "اللطيف",
+"English": "Al-Latif",
+"Meaning": "The Subtle One"
+},
+{
+"Index": "32",
+"Arabic": "الخبير",
+"English": "Al-Khabir",
+"Meaning": "The All-Aware"
+},
+{
+"Index": "33",
+"Arabic": "الحليم",
+"English": "Al-Halim",
+"Meaning": "The Forbearing"
+},
+{
+"Index": "34",
+"Arabic": "العظيم",
+"English": "Al-Azim",
+"Meaning": "The Magnificent"
+},
+{
+"Index": "35",
+"Arabic": "الغفور",
+"English": "Al-Ghafur",
+"Meaning": "The Forgiver and Hider of Faults"
+},
+{
+"Index": "36",
+"Arabic": "الشكور",
+"English": "Ash-Shakur",
+"Meaning": "The Rewarder of Thankfulness"
+},
+{
+"Index": "37",
+"Arabic": "العلي",
+"English": "Al-Ali",
+"Meaning": "The Highest"
+},
+{
+"Index": "38",
+"Arabic": "الكبير",
+"English": "Al-Kabir",
+"Meaning": "The Greatest"
+},
+{
+"Index": "39",
+"Arabic": "الحفيظ",
+"English": "Al-Hafiz",
+"Meaning": "The Preserver"
+},
+{
+"Index": "40",
+"Arabic": "المقيت",
+"English": "Al-Muqit",
+"Meaning": "The Nourisher"
+},
+{
+"Index": "41",
+"Arabic": "الحسيب",
+"English": "Al-Hasib",
+"Meaning": "The Accounter"
+},
+{
+"Index": "42",
+"Arabic": "الجليل",
+"English": "Al-Jalil",
+"Meaning": "The Mighty"
+},
+{
+"Index": "43",
+"Arabic": "الكريم",
+"English": "Al-Karim",
+"Meaning": "The Generous"
+},
+{
+"Index": "44",
+"Arabic": "الرقيب",
+"English": "Ar-Raqib",
+"Meaning": "The Watchful One"
+},
+{
+"Index": "45",
+"Arabic": "المجيب",
+"English": "Al-Mujib",
+"Meaning": "The Responder to Prayer.Prayer"
+},
+{
+"Index": "46",
+"Arabic": "الواسع",
+"English": "Al-Wasi",
+"Meaning": "The All-Comprehending"
+},
+{
+"Index": "47",
+"Arabic": "الحكيم",
+"English": "Al-Hakim",
+"Meaning": "The Perfectly Wise"
+},
+{
+"Index": "48",
+"Arabic": "الودود",
+"English": "Al-Wadud",
+"Meaning": "The Loving One"
+},
+{
+"Index": "49",
+"Arabic": "المجيد",
+"English": "Al-Majid",
+"Meaning": "The Majestic One"
+},
+{
+"Index": "50",
+"Arabic": "الباعث",
+"English": "Al-Ba’ith",
+"Meaning": "The Resurrector"
+},
+{
+"Index": "51",
+"Arabic": "الشهيد",
+"English": "Ash-Shahid",
+"Meaning": "The Witness"
+},
+{
+"Index": "52",
+"Arabic": "الحق",
+"English": "Al-Haqq",
+"Meaning": "The Truth"
+},
+{
+"Index": "53",
+"Arabic": "الوكيل",
+"English": "Al-Wakil",
+"Meaning": "The Trustee"
+},
+{
+"Index": "54",
+"Arabic": "القوى",
+"English": "Al-Qawiyy",
+"Meaning": "The Possessor of All Strength"
+},
+{
+"Index": "55",
+"Arabic": "المتين",
+"English": "Al-Matin",
+"Meaning": "The Forceful One"
+},
+{
+"Index": "56",
+"Arabic": "الولي",
+"English": "Al-Waliyy",
+"Meaning": "The Governor"
+},
+{
+"Index": "57",
+"Arabic": "الحميد",
+"English": "Al-Hamid",
+"Meaning": "The Praised One"
+},
+{
+"Index": "58",
+"Arabic": "المحصى",
+"English": "Al-Muhsi",
+"Meaning": "The Appraiser"
+},
+{
+"Index": "59",
+"Arabic": "المبدئ",
+"English": "Al-Mubdi’",
+"Meaning": "The Originator"
+},
+{
+"Index": "60",
+"Arabic": "المعيد",
+"English": "Al-Mu’id",
+"Meaning": "The Restorer"
+},
+{
+"Index": "61",
+"Arabic": "المحيي",
+"English": "Al-Muhyi",
+"Meaning": "The Giver of Life"
+},
+{
+"Index": "62",
+"Arabic": "المميت",
+"English": "Al-Mumit",
+"Meaning": "The Taker of Life"
+},
+{
+"Index": "63",
+"Arabic": "الحي",
+"English": "Al-Hayy",
+"Meaning": "The Ever Living One"
+},
+{
+"Index": "64",
+"Arabic": "القيوم",
+"English": "Al-Qayyum",
+"Meaning": "The Self-Existing One"
+},
+{
+"Index": "65",
+"Arabic": "الواجد",
+"English": "Al-Wajid",
+"Meaning": "The Finder"
+},
+{
+"Index": "66",
+"Arabic": "الماجد",
+"English": "Al-Majid",
+"Meaning": "The Glorious"
+},
+{
+"Index": "67",
+"Arabic": "الواحد",
+"English": "Al-Wahid",
+"Meaning": "The One, the All Inclusive, The Indivisible"
+},
+{
+"Index": "68",
+"Arabic": "الصمد",
+"English": "As-Samad",
+"Meaning": "The Satisfier of All Needs"
+},
+{
+"Index": "69",
+"Arabic": "القادر",
+"English": "Al-Qadir",
+"Meaning": "The All Powerful"
+},
+{
+"Index": "70",
+"Arabic": "المقتدر",
+"English": "Al-Muqtadir",
+"Meaning": "The Creator of All Power"
+},
+{
+"Index": "71",
+"Arabic": "المقدم",
+"English": "Al-Muqaddim",
+"Meaning": "The Expediter"
+},
+{
+"Index": "72",
+"Arabic": "المؤخر",
+"English": "Al-Mu’akhkhir",
+"Meaning": "The Delayer"
+},
+{
+"Index": "73",
+"Arabic": "الأول",
+"English": "Al-Awwal",
+"Meaning": "The First"
+},
+{
+"Index": "74",
+"Arabic": "الآخر",
+"English": "Al-Akhir",
+"Meaning": "The Last"
+},
+{
+"Index": "75",
+"Arabic": "الظاهر",
+"English": "Az-Zahir",
+"Meaning": "The Manifest One"
+},
+{
+"Index": "76",
+"Arabic": "الباطن",
+"English": "Al-Batin",
+"Meaning": "The Hidden One"
+},
+{
+"Index": "77",
+"Arabic": "الوالي",
+"English": "Al-Wali",
+"Meaning": "The Protecting Friend"
+},
+{
+"Index": "78",
+"Arabic": "المتعال",
+"English": "Al-Muta’ali",
+"Meaning": "The Supreme One"
+},
+{
+"Index": "79",
+"Arabic": "البر",
+"English": "Al-Barr",
+"Meaning": "The Doer of Good"
+},
+{
+"Index": "80",
+"Arabic": "التواب",
+"English": "At-Tawwab",
+"Meaning": "The Guide to Repentance"
+},
+{
+"Index": "81",
+"Arabic": "المنتقم",
+"English": "Al-Muntaqim",
+"Meaning": "The Avenger"
+},
+{
+"Index": "82",
+"Arabic": "العفو",
+"English": "Al-‘Afuww",
+"Meaning": "The Forgiver"
+},
+{
+"Index": "83",
+"Arabic": "الرؤوف",
+"English": "Ar-Ra’uf",
+"Meaning": "The Clement"
+},
+{
+"Index": "84",
+"Arabic": "مالك الملك",
+"English": "Malik-al-Mulk",
+"Meaning": "The Owner of All"
+},
+{
+"Index": "85",
+"Arabic": "ذو الجلال و الإكرام",
+"English": "Dhu-al-Jalal wa-al-Ikram",
+"Meaning": "The Lord of Majesty and Bounty"
+},
+{
+"Index": "86",
+"Arabic": "المقسط",
+"English": "Al-Muqsit",
+"Meaning": "The Equitable One"
+},
+{
+"Index": "87",
+"Arabic": "الجامع",
+"English": "Al-Jami’",
+"Meaning": "The Gatherer"
+},
+{
+"Index": "88",
+"Arabic": "الغني",
+"English": "Al-Ghani",
+"Meaning": "The Rich One"
+},
+{
+"Index": "89",
+"Arabic": "المغني",
+"English": "Al-Mughni",
+"Meaning": "The Enricher"
+},
+{
+"Index": "90",
+"Arabic": "المانع",
+"English": "Al-Mani’",
+"Meaning": "The Preventer of Harm"
+},
+{
+"Index": "91",
+"Arabic": "الضار",
+"English": "Ad-Darr",
+"Meaning": "The Creator of The Harmful"
+},
+{
+"Index": "92",
+"Arabic": "النافع",
+"English": "An-Nafi’",
+"Meaning": "The Creator of Good"
+},
+{
+"Index": "93",
+"Arabic": "النور",
+"English": "An-Nur",
+"Meaning": "The Light"
+},
+{
+"Index": "94",
+"Arabic": "الهادي",
+"English": "Al-Hadi",
+"Meaning": "The Guide"
+},
+{
+"Index": "95",
+"Arabic": "البديع",
+"English": "Al-Badi",
+"Meaning": "The Originator"
+},
+{
+"Index": "96",
+"Arabic": "الباقي",
+"English": "Al-Baqi",
+"Meaning": "The Everlasting One"
+},
+{
+"Index": "97",
+"Arabic": "الوارث",
+"English": "Al-Warith",
+"Meaning": "The Inheritor of All"
+},
+{
+"Index": "98",
+"Arabic": "الرشيد",
+"English": "Ar-Rashid",
+"Meaning": "The Righteous Teacher"
+},
+{
+"Index": "99",
+"Arabic": "الصبور",
+"English": "As-Sabur",
+"Meaning": "The Patient One"
+}
+]}
