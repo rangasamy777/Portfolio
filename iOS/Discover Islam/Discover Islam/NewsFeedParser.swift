@@ -12,7 +12,7 @@ var newsParser:NewsFeedParser = NewsFeedParser()
 
 class NewsFeedParser {
    
-    var url:String = "http://islam.envisiontechllc.org/php/getnews.php"
+    var url:String = "http://localhost/php/getnews.php"
     let queue:dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
     
     func getNewsFeed(indicator:UIActivityIndicatorView, update:UILabel, app:LoginVC){

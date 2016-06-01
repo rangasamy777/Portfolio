@@ -14,8 +14,8 @@ var loginHandler:LoginHandler = LoginHandler()
 class LoginHandler {
     
     let queue:dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-    var registerUrl:String = "http://islam.envisiontechllc.org/php/register.php?"
-    var loginUrl:String = "http://islam.envisiontechllc.org/php/login.php?"
+    var registerUrl:String = "http://localhost/php/register.php?"
+    var loginUrl:String = "http://localhost/php/login.php?"
     
     func login(username:String, password:String, remember:Bool, app:LoginVC, completion: (code:Int) -> Void) -> Int {
         var code:Int = 200

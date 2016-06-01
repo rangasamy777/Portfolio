@@ -13,9 +13,9 @@ var serverAPI:ServerAPI = ServerAPI()
 class ServerAPI {
     
     let queue:dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-    let likeURL = "http://islam.envisiontechllc.org/php/likePost.php?postID="
-    let profileUrl = "http://islam.envisiontechllc.org/php/getProfile.php?username="
-    let postUrl = "http://islam.envisiontechllc.org/php/getPosts.php?username="
+    let likeURL = "http://localhost/php/likePost.php?postID="
+    let profileUrl = "http://localhost/php/getProfile.php?username="
+    let postUrl = "http://localhost/php/getPosts.php?username="
     
     func likePost(news:News){
         dispatch_async(queue, {

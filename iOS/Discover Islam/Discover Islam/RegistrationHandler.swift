@@ -12,7 +12,7 @@ var registrationHandler:RegistrationHandler = RegistrationHandler()
 
 class RegistrationHandler {
     
-    let path:String = "http://islam.envisiontechllc.org/php/register.php?"
+    let path:String = "http://localhost/php/register.php?"
     let queue:dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
     
     func registerUser(username:String, password:String, email:String, completion: (code: Int) -> Void ) {

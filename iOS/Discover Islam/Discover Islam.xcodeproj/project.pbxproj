@@ -309,6 +309,7 @@
 		F05E54461B491AE700E2854D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Envision Tech LLC";
 				TargetAttributes = {
