@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/login_selector">
+
+        <Button
+            android:id="@+id/login_createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_create"
+            android:drawableLeft="@mipmap/add"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="15dp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:src="@drawable/logo"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:layout_below="@+id/login_username"
+            android:hint="Password"
+            />
+
+        <CheckBox
+            android:id="@+id/login_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:layout_below="@+id/login_password"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btn"
+            android:layout_below="@+id/login_remember"
+            />
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginBtn"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Lost or Forgotten password?"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

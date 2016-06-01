@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SuperTutor</string>
+    <string name="splash_screen">Splash screen</string>
+    <string name="library">Library</string>
+    <string name="registration">Registration</string>
+    <string name="content_viewer">Content Viewer</string>
+    <string name="app_tour">App Tour</string>
+    <string name="quiz_test">Test Activity</string>
+    <string name="questionnaire">Questionnaire</string>
+
+    <string name="SHARED_PREFERENCES">SuperTutor Preferences</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_help">Help</string>
+    <string name="login_create">Create Account</string>
+
+    <string name="profile_tag">Profile</string>
+    <string name="account_tag">Account</string>
+    <string name="reg_account">Usernames can contain spaces and alphanumeric characters. Passwords are case-sensitive.</string>
+
+    <string name="Download">Download</string>
+    <string name="Cancel">Cancel</string>
+    <string name="discussion_header">Tap to view</string>
+    <string name="chat_message">Enter message here</string>
+    <string name="chat_send">Send</string>
+
+    <string name="app_tour_close">Close</string>
+    <string name="settings_okay">Confirm</string>
+    <string name="refresh">Refresh</string>
+    <string name="take_app_tour">Take a app tour</string>
+
+    <string name="next_question">Next question</string>
+    <string name="forgot_password_msg">Once you have submitted your request, a confirmation will be sent to the email specified.</string>
+    <string name="questionnaire_welcome">Welcome to the Personality quiz!\n\nComplete the quiz by completing the questions in sequence.\n\nOnce you have completed the quiz you will be shown your personality. This will then be used to structure the order of the topics you downloaded to your preference.</string>
+</resources>

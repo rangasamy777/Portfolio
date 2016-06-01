@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/board_refresh"
+        android:title="@string/refresh"
+        android:icon="@mipmap/refresh_white"
+        app:showAsAction="always"
+        android:menuCategory="system"
+        />
+
+</menu>

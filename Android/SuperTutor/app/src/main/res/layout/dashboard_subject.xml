@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/subjectName_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Subject name"/>
+
+    <TextView
+        android:id="@+id/subjectPercentage_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/subjectName_dashboard"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:text="90% complete"/>
+
+    <ProgressBar
+        android:id="@+id/subjectProgress_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectName_dashboard"
+        android:layout_toLeftOf="@+id/subjectTest_dashboard"
+        android:layout_marginTop="30dp"
+        android:indeterminate="false"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+    <Button
+        android:id="@+id/subjectTest_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Take test"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/subjectPercentage_dashboard"/>
+
+</RelativeLayout>

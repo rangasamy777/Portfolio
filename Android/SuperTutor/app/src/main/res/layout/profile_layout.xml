@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="matrix"
+            android:background="@drawable/profile_background"/>
+
+        <RelativeLayout
+            android:id="@+id/profileContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/profileBackground"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/profileStatus"
+                />
+
+            <EditText
+                android:id="@+id/profileStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textColorPrimary"
+                android:background="@android:color/transparent"
+                />
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/editProfileBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@+id/profileContainer"
+            app:layout_anchorGravity="end|bottom"
+            android:src="@mipmap/edit_pen"
+            android:layout_marginRight="10dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/follower_tab_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabSelectedTextColor="@color/textColorPrimary"
+        app:tabIndicatorColor="@color/textColorPrimary">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/profileFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/textColorPrimary">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

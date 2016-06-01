@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Navigation">
+            <menu>
+                <item
+                    android:id="@+id/navHome"
+                    android:icon="@drawable/home"
+                    android:title="Dashboard" />
+                <item
+                    android:id="@+id/navLibrary"
+                    android:title="Topic Library"
+                    android:icon="@drawable/library"
+                    />
+                <item
+                    android:id="@+id/navTest"
+                    android:title="Personality Quiz"
+                    android:icon="@drawable/exam"/>
+                <item
+                    android:id="@+id/navBoard"
+                    android:title="Discussion Board"
+                    android:icon="@drawable/discussion_board"/>
+            </menu>
+        </item>
+
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:title="Profile"
+                    android:icon="@drawable/profile"
+                    android:id="@+id/navProfile"/>
+                <item
+                    android:id="@+id/navSettings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/navLogout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"
+                    />
+            </menu>
+        </item>
+
+        <item android:title="Support">
+            <menu>
+                <item
+                    android:id="@+id/navTwitter"
+                    android:title="Twitter"
+                    android:icon="@drawable/twitter"
+                    />
+                <item
+                    android:id="@+id/navInstagram"
+                    android:title="Instagram"
+                    android:icon="@drawable/instagram"
+                    />
+                <item
+                    android:id="@+id/navEmail"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Email"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

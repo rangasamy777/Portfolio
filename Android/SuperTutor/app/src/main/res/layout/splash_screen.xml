@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_selector">
+
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/splashImage"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashTxt"
+        android:textSize="20dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="Loading application data..."
+        android:layout_below="@+id/splashImage"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashTxt"
+        android:layout_centerInParent="true"
+        android:id="@+id/splashSpinner"/>
+
+</RelativeLayout>

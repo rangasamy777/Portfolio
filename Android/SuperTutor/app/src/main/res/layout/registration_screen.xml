@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_selector"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/layout_selector"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_tag"
+            android:textColor="@color/grey"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@drawable/textfield_selector"
+            android:drawableEnd="@mipmap/user"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/textfield_selector"
+            android:drawableEnd="@mipmap/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/reg_confirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:background="@drawable/textfield_selector"
+            android:drawableEnd="@mipmap/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg_account"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_selector"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_tag"
+            android:textColor="@color/grey"
+            android:textSize="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <EditText
+                android:id="@+id/reg_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_selector"
+                android:hint="D.O.B (DD-MM-YYYY)"
+                android:drawableEnd="@mipmap/calendar"
+                android:inputType="date"
+                >
+
+            </EditText>
+
+            <Spinner
+                android:id="@+id/reg_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reg_dob"
+                >
+
+            </Spinner>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_email"
+                android:layout_below="@+id/reg_status"
+                android:hint="Email"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textfield_selector"
+                android:drawableEnd="@mipmap/email"
+                android:inputType="textEmailAddress"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reg_register"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_white"
+        android:text="Register"
+        android:textColor="@color/textColorPrimary"
+        />
+
+</LinearLayout>

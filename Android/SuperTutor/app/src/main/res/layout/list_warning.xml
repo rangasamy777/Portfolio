@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+
+    <ImageView
+        android:id="@+id/warningIcon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/warning"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/listWarningMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_below="@+id/warningIcon"
+        android:layout_margin="10dp"
+        android:gravity="center|top"
+        android:text="This is the warning message"/>
+
+</RelativeLayout>

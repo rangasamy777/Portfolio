@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    cardview:cardCornerRadius="4dp"
+    cardview:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/category_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:scaleType="matrix"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignBottom="@+id/category_image"
+            android:id="@+id/category_placeholder"
+            android:background="@color/black">
+
+            <TextView
+                android:id="@+id/category_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Category title"
+                android:layout_margin="5dp"
+                android:textColor="@color/textColorPrimary"/>
+
+            <TextView
+                android:id="@+id/category_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/category_title"
+                android:textSize="14sp"
+                android:text="Category Description"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorPrimary"
+                android:paddingBottom="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

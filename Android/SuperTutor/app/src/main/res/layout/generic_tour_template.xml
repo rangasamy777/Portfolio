@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/appTour_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/appTour_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appTour_image"
+        android:text="Description"
+        android:layout_weight="0.7"
+        android:gravity="center|top"
+        android:textColor="@color/textColorPrimary"
+        android:padding="10dp"/>
+
+</LinearLayout>

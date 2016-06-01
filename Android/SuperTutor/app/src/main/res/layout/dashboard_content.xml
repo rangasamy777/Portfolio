@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="org.envisiontechllc.supertutor.SuperTutor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dashboard_star"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/star"
+                    android:paddingLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dashboard_welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_toRightOf="@+id/dashboard_star"/>
+
+                <TextView
+                    android:id="@+id/dashboard_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_toRightOf="@+id/dashboard_star"
+                    android:layout_below="@+id/dashboard_welcome"
+                    android:paddingLeft="10dp"/>
+
+                <ListView
+                    android:id="@+id/dashboard_subjectList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp"
+                    android:layout_below="@id/dashboard_style"
+                    >
+
+                </ListView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/dashboard_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@mipmap/refresh_white"
+        app:layout_anchor="@+id/dashboard_subjectList"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

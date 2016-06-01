@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a new password"/>
+
+    <EditText
+        android:id="@+id/confirmNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm your new password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/changePassword_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:textColor="@color/red"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/confirmChangePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

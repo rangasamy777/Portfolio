@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/questionnaireQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:text="Question here"
+        android:gravity="center"
+        android:maxLines="3"
+        android:minLines="2"
+        android:paddingTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp">
+
+        <RadioGroup
+            android:id="@+id/questionnaireGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/questionnaireAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer 1"/>
+            <RadioButton
+                android:id="@+id/questionnaireAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer 2"/>
+            <RadioButton
+                android:id="@+id/questionnaireAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer 3"/>
+            <RadioButton
+                android:id="@+id/questionnaireAnswer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer 4"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/questionnaireProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/lime"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:max="10"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/questionnairePercentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text="50%"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/questionnaireNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next question"/>
+
+</LinearLayout>
